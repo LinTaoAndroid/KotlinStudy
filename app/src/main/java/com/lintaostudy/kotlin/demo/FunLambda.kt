@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin
+package com.lintaostudy.kotlin.demo
 
 import android.os.Build
 import androidx.annotation.RequiresApi

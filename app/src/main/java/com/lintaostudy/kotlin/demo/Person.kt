@@ -1,7 +1,8 @@
 package com.lintaostudy.kotlin.demo
 
-import android.text.format.DateUtils
-
+/**
+ * 抽象类
+ */
 fun main() {
     Teacher.gotoClass();
 }
