@@ -1,5 +1,9 @@
 package com.lintaostudy.kotlin.demo
 
+import android.app.Activity
+import android.view.View
+import androidx.annotation.IdRes
+
 /**
  * kotlin扩展
  */
@@ -79,5 +83,18 @@ fun testApply() {
     }
 }
 
+/**------------------------案例: 使用kotlin扩展为控件绑定监听器减少模板代码-------------------------------**/
+//为Activity添加find扩展函数,用于通过资源id获取控件
+fun <T : View> Activity.find(@IdRes id: Int): T {
+    return findViewById(id)
+}
 
+// 为Int添加onClick扩展方法,用于为资源id对应的控件添加onClick监听
+fun Int.onClick(activity: Activity, click: () -> Unit) {
+    activity.find<View>(this).apply {
+        setOnClickListener {
+            click
+        }
+    }
+}
 
