@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo
+package com.lintaostudy.kotlin.demo.other
 
 import android.content.Context
 import android.util.AttributeSet
@@ -8,7 +8,6 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
-import androidx.core.view.get
 import com.lintaostudy.kotlin.R
 import com.lintaostudy.kotlin.demo.utils.HiDisplayUtil
 

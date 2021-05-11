@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo
+package com.lintaostudy.kotlin.demo.other
 
 /**
  * 抽象类

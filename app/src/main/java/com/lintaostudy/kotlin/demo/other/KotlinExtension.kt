@@ -1,8 +1,9 @@
-package com.lintaostudy.kotlin.demo
+package com.lintaostudy.kotlin.demo.other
 
 import android.app.Activity
 import android.view.View
 import androidx.annotation.IdRes
+import com.lintaostudy.kotlin.demo.other.Jump.Companion
 
 /**
  * kotlin扩展
@@ -35,7 +36,7 @@ class Jump {
 }
 
 // 为伴生对象添加扩展方法
-fun Jump.Companion.jump(l: Int) {
+fun Companion.jump(l: Int) {
 
 }
 
