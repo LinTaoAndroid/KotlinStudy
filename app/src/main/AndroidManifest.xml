@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lintaostudy.kotlin">
+    package="com.lintaostudy.demo">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotlin">
-        <activity android:name=".demo.other.MainActivity">
+        <activity android:name="com.lintaostudy.demo.other.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

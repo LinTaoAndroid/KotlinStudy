@@ -1,6 +1,6 @@
-package com.lintaostudy.kotlin.demo.other
+package com.lintaostudy.demo.other
 
-import com.lintaostudy.kotlin.demo.other.Method.Post
+import com.lintaostudy.demo.other.Method.Post
 
 // 注解
 annotation class ApiDoc(val s: String)

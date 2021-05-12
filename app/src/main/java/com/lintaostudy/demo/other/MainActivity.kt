@@ -1,12 +1,12 @@
-package com.lintaostudy.kotlin.demo.other
+package com.lintaostudy.demo.other
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.lintaostudy.kotlin.R.layout
+import com.lintaostudy.demo.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(layout.activity_main)
+        setContentView(R.layout.activity_main)
     }
 }

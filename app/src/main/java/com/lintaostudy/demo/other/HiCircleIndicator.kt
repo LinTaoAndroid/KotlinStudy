@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo.other
+package com.lintaostudy.demo.other
 
 import android.content.Context
 import android.util.AttributeSet
@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
 import com.lintaostudy.kotlin.R
-import com.lintaostudy.kotlin.demo.utils.HiDisplayUtil
+import com.lintaostudy.demo.utils.HiDisplayUtil
 
 /**
  * 自定义圆形指示器

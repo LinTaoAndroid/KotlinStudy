@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo.java;
+package com.lintaostudy.demo.java;
 
 /**
  * @author :created by lintao

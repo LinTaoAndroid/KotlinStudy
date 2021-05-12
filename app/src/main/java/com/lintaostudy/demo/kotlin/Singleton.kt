@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo.kotlin
+package com.lintaostudy.demo.kotlin
 
 import kotlin.LazyThreadSafetyMode.SYNCHRONIZED
 

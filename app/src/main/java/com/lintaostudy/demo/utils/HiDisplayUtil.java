@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo.utils;
+package com.lintaostudy.demo.utils;
 
 import android.content.Context;
 import android.content.res.Resources;

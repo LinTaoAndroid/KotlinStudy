@@ -1,4 +1,4 @@
-package com.lintaostudy.kotlin.demo.other
+package com.lintaostudy.demo.other
 
 import java.util.*
 

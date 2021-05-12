@@ -1,9 +1,9 @@
-package com.lintaostudy.kotlin.demo.other
+package com.lintaostudy.demo.other
 
 import android.app.Activity
 import android.view.View
 import androidx.annotation.IdRes
-import com.lintaostudy.kotlin.demo.other.Jump.Companion
+import com.lintaostudy.demo.other.Jump.Companion
 
 /**
  * kotlin扩展
