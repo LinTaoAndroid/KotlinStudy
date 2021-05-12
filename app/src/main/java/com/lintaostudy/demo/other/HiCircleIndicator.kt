@@ -8,7 +8,7 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.annotation.DrawableRes
-import com.lintaostudy.kotlin.R
+import com.lintaostudy.demo.R
 import com.lintaostudy.demo.utils.HiDisplayUtil
 
 /**

@@ -2,7 +2,7 @@
     android:shape="rectangle">
 
     <!-- 填充的颜色 -->
-    <solid android:color="@color/hi_tabtop_selected_color" />
+<!--    <solid android:color="@color/hi_tabtop_selected_color" />-->
 
     <!-- android:radius 圆角的半径 -->
     <corners android:radius="1dp" />
